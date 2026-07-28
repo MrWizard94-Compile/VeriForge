@@ -1,0 +1,10 @@
+# Release archives duplicate the editable source variants.
+*.zip
+
+# Credentials and generated build output remain local.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+**/target/

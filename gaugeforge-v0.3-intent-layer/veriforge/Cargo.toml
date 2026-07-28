@@ -1,0 +1,11 @@
+[package]
+name = "veriforge"
+version = "0.1.0"
+edition = "2021"
+authors = ["VeriForge Engineering — Scotty Edition"]
+description = "MVP prototype of VeriForge AI on Reversible Holographic Dataflow Fabric (RHDF). Static-memory, deterministic, hallucination-immune code synthesis for complex adaptive systems and mod ports. Runs on gaming PCs."
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+# Zero external dependencies for maximum static purity, portability, and minimal power footprint.
+# Future: wgpu for real GPU dataflow kernels, nalgebra for richer fixed-size TN ops, tree-sitter or syn for language-specific parsing.
